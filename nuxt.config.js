@@ -41,7 +41,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ['~/plugins/components'],
+  plugins: ["~/plugins/components"],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -64,5 +64,8 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {}
+  build: {},
+  router: {
+    middleware: "languageDetection"
+  }
 };
