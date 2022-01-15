@@ -10,7 +10,7 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
-    "marked": "^1.1.0",
+    "marked": "^4.0.10",
     "nuxt": "^2.13.0",
     "storyblok-nuxt": "^1.2.0"
   },
